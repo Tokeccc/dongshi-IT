@@ -1,0 +1,130 @@
+.head{
+	width:100%;
+}
+.good{
+	width: 100px;
+	height: 100px;
+	color:red;
+	background: #green;
+}
+.header{
+	width:1200px;
+	margin:0 auto;
+}
+.header ul {
+	float: right;
+	margin-top:21px;
+	margin-bottom: 17px;
+}
+.header img{
+	margin-top:6px;
+	margin-bottom: 6px;
+}
+.header ul li{
+	float: left;
+}
+.header ul li a{
+	display: block;
+	width: 96px;
+	padding-top:8px;
+	padding-bottom: 8px;
+	text-align: center;
+	margin:auto 10px;
+}
+.header ul li a:hover{
+	background: #372d2a;
+	color: white;
+}
+.banner{
+	width: 100%;
+	height: 329px;
+	background: url(../img/banner2.png) no-repeat top center;
+	position: relative;
+}
+.banner .bao{
+	width: 120px;
+	position: absolute;
+	top:198px;
+	right: 35px;
+}
+.banner i{
+	display: block;
+	width: 48px;
+	height: 14px;
+	border-radius: 22px 22px 0 0;
+	box-sizing: border-box;
+	background: #4769a7;
+	margin:0 auto;
+}
+.banner .form{
+	width: 120px;
+	height: 330px;
+	background: #4769a7;
+	border-radius: 4px;
+}
+.banner .form h3,p{
+	text-align: center;
+}
+.banner .form h3{
+	font-size: 19px;
+	line-height: 38px;
+	color: #fefefe;
+	font-weight: normal;
+}
+.banner .form h5,h4{
+	font-size: 12px;
+	color: #5e5e5e;
+	font-weight: normal;
+	margin-left: 9px;
+}
+.banner .form h5{
+	line-height: 20px;
+	padding-top: 10px;
+}
+.banner .form h4{
+	line-height: 28px;
+}
+.banner .form .white img{
+	display: block;
+	margin-left: 9px;
+}
+.banner .form .white p{
+	border-top:1px dashed #e1e1e1;
+	width: 83px;
+	padding-top: 10px;
+	line-height: 28px;
+	margin:10px auto 0;
+	font-size: 12px;
+	color: #5e5e5e;
+}
+.banner .form .white{
+	width: 106px;
+	height: 281px;
+	background: white;
+	border-radius: 2px;
+	margin:0 auto;
+}
+.show{
+	width: 1200px;
+	margin:0 auto;
+}
+.show .left_show{
+	background: #1b1d22;
+	padding-top: 17px;
+}
+.show .left_show li a{
+	display: block;
+	width: 250px;
+	height:65px;
+	font-size: 15px;
+	color: #ccc;
+	line-height: 66px;
+	border-left: 10px solid  #1b1d22;
+	box-sizing: border-box;
+}
+
+.show .left_show li a:hover{
+	background: white;
+	color: #333;
+	border-left: 10px solid #004d7c;
+}

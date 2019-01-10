@@ -1,1 +1,0 @@
-requirejs.config({baseUrl:"js/lib",paths:{jQuery:"jquery.min",baiduT:"baiduTemplate",swiper:"swiper.min",lazyload:"lazyload.min",extend:"jquery.extend"}}),requirejs(["jQuery","baiduT","swiper","lazyload","extend"],function(e,l,i,r){console.log(e,l,i,r),e(".slider_txt dl").scrollItem("top",40,1e3),e(".list ul").scrollItem("left",200,2e3),e(".menu").switchTab(".submenu")});

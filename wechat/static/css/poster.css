@@ -1,0 +1,38 @@
+.poster{
+    width: 100%;
+    height: 100%;
+    background: #fff600;
+}
+.poster .bgt{
+    width:10rem /* 640/64 */;
+    height: 16.25rem /* 1040/64 */;
+    position: relative;
+}
+.poster .parct{
+    z-index:1;
+    position:absolute;
+    left:6.25rem /* 400/64 */;
+    top:.609375rem /* 39/64 */;
+    font-size: .5625rem /* 36/64 */;
+    color: red;
+}
+.poster .grade{
+    z-index:1;
+    position:absolute;
+    left:7.53125rem /* 482/64 */;
+    top: 1.375rem /* 88/64 */;
+    font-size: .375rem /* 24/64 */;
+    color: #000;
+}
+.poster .headx{
+    width: 1.03125rem /* 66/64 */;
+    height: 1.03125rem /* 66/64 */;
+    border-radius: 50%;
+    border:.03125rem /* 2/64 */ solid black;
+    box-sizing: border-box;
+    background: white;
+    position: absolute;
+    left: .9375rem /* 60/64 */;
+    top:.65625rem /* 42/64 */;
+    z-index: 1;
+}
